@@ -1,28 +1,34 @@
 <div class="row">
-	<div *ngIf="track" class="col-6">
-		<!--TODO: populate with track name-->
-		<h1>???</h1>
-		<p>
-			<!--TODO: link to album page, display album name-->
-			Track on <a>???</a>
-		</p>
-		<div>
-			<!--TODO: loop over album's artists-->
-			<p>
-				<!--TODO: link to artist page, display artist name-->
-				Artist: <a>???</a>
-			</p>
-		</div>
-		<p>
-			<!--TODO: populate with track duration-->
-			Duration: ???
-		</p>
-		<p>
-			<!--TODO: link to track page on spotify, display track name-->
-			<a class="btn btn-light" role="button" target="_blank">Open ??? on Spotify</a>
-		</p>
-	</div>
-	<div *ngIf="audioFeatures" class="col-6">
-		<!--TODO: loop over types of features and create a thermometer component for each-->
-	</div>
+  <div *ngIf="track" class="col-6">
+    <!--TODO: populate with track name-->
+    <h1>{{ track.name }}</h1>
+    <p>
+      <!--TODO: link to album page, display album name-->
+      Track on <a href="/album/{{ track.album.id }}">{{ track.album.name }}</a>
+    </p>
+    <div>
+      <!--TODO: loop over album's artists-->
+      <p *ngFor="let a of track.album.artists">
+        <!--TODO: link to artist page, display artist name-->
+        Artist: <a href="/artist/{{ a.id }}">{{ a.name }}</a>
+      </p>
+    </div>
+    <p>
+      <!--TODO: populate with track duration-->
+      Duration: {{ track.durationStr }}
+    </p>
+    <p>
+      <!--TODO: link to track page on spotify, display track name-->
+      <a class="btn btn-light" role="button" target="_blank" [href]="track.url"
+        >Open {{ track.name }} on Spotify</a
+      >
+    </p>
+  </div>
+  <div *ngIf="audioFeatures" class="col-6">
+    <!--TODO: loop over types of features and create a thermometer component for each-->
+    <app-thermometer
+      *ngFor="let a of audioFeatures"
+      [audioFeature]="a"
+    ></app-thermometer>
+  </div>
 </div>
