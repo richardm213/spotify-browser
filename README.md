@@ -12,15 +12,15 @@ On the inital page, you can log in to your Spotify account and load some basic i
 
 Once you have logged in, you can search up different Spotify artists, albums, and tracks. Here is an example:
 
-![Uploading demo1.gif…]()
+<img width="700" alt="Screen Shot 2022-09-14 at 6 36 34 PM" src="https://user-images.githubusercontent.com/92076990/190880744-2381e012-6a16-4a16-b8e8-92b8d91e3f22.png">
 
 ### Artist, Album, and Track Pages
 
-Finally, you can click on any of the search results to view that artist, album, or track in more detail. Here are some demos:
+Finally, you can click on any of the search results to view that artist, album, or track in more detail. Here is an example of an album page:
 
-![image info](media/demo2.gif)
+<img width="700" alt="Screen Shot 2022-09-17 at 5 39 38 PM" src="https://user-images.githubusercontent.com/92076990/190880771-ce13b65a-c6db-466c-883a-0a1aff87f7ae.png">
 
-![image info](media/demo3.gif)
+## Demo
 
 ## How to Run Code
 
