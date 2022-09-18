@@ -6,13 +6,13 @@
 
 On the inital page, you can log in to your Spotify account and load some basic info from your Spotify profile.
 
-![image info](media/home.png)
+<img width="959" alt="home" src="https://user-images.githubusercontent.com/92076990/190880512-efd34f25-f4c4-4793-a7b8-63bce1f139ff.png">
 
 ### Search
 
 Once you have logged in, you can search up different Spotify artists, albums, and tracks. Here is an example:
 
-![image info](media/demo1.gif)
+![Uploading demo1.gif…]()
 
 ### Artist, Album, and Track Pages
 
@@ -26,7 +26,11 @@ Finally, you can click on any of the search results to view that artist, album, 
 
 First, go to https://developer.spotify.com/dashboard and create an app.
 
+<img width="894" alt="Screen Shot 2022-09-17 at 5 15 28 PM" src="https://user-images.githubusercontent.com/92076990/190880478-63bde185-a41a-441f-a456-95f5ea53bce6.png">
+
 Next, go to the app settings and add http://localhost:8888/callback as a redirect URI.
+
+<img width="355" alt="Screen Shot 2022-09-17 at 5 15 36 PM" src="https://user-images.githubusercontent.com/92076990/190880486-416872d4-ec12-4ff2-b1ae-0d45d2fc971a.png">
 
 Now your Spotify app is ready to go. Once you clone the repository, you are going to need to create two files called client_secret.json and tokens.json.
 
