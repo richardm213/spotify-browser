@@ -32,7 +32,7 @@ Next, go to the app settings and add http://localhost:8888/callback as a redirec
 
 <img width="355" alt="Screen Shot 2022-09-17 at 5 15 36 PM" src="https://user-images.githubusercontent.com/92076990/190880486-416872d4-ec12-4ff2-b1ae-0d45d2fc971a.png">
 
-Now your Spotify app is ready to go. Once you clone the repository, you are going to need to create two files called client_secret.json and tokens.json.
+Now your Spotify app is ready to go. Once you clone the repository, you are going to need to create two files in the webserver folder called client_secret.json and tokens.json.
 
 client_secret.json - add your own credentials
 
