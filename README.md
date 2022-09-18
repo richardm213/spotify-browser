@@ -6,7 +6,7 @@
 
 On the inital page, you can log in to your Spotify account and load some basic info from your Spotify profile.
 
-<img width="959" alt="home" src="https://user-images.githubusercontent.com/92076990/190880512-efd34f25-f4c4-4793-a7b8-63bce1f139ff.png">
+<img width="700" alt="home" src="https://user-images.githubusercontent.com/92076990/190880512-efd34f25-f4c4-4793-a7b8-63bce1f139ff.png">
 
 ### Search
 
@@ -26,7 +26,7 @@ Finally, you can click on any of the search results to view that artist, album, 
 
 First, go to https://developer.spotify.com/dashboard and create an app.
 
-<img width="894" alt="Screen Shot 2022-09-17 at 5 15 28 PM" src="https://user-images.githubusercontent.com/92076990/190880478-63bde185-a41a-441f-a456-95f5ea53bce6.png">
+<img width="650" alt="Screen Shot 2022-09-17 at 5 14 30 PM" src="https://user-images.githubusercontent.com/92076990/190880524-7c247f1c-58d9-41d7-a4e3-20b8a42376ad.png">
 
 Next, go to the app settings and add http://localhost:8888/callback as a redirect URI.
 
